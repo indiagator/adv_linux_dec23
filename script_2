@@ -1,0 +1,9 @@
+#!/bin/bash
+if $2
+ then 
+ whoami
+ elif ls | grep $1
+ then
+ ls -l
+fi
+exit 0

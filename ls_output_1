@@ -1,0 +1,12 @@
+total 12
+-rw-rw-r-- 1 indiagator indiagator    0 Dec 12 11:23 ls_output_1
+drwxrwxr-x 2 indiagator indiagator 4096 Dec 12 11:22 test_dir
+-rw-rw-r-- 1 indiagator indiagator   10 Dec 12 11:21 text1
+-rw-rw-r-- 1 indiagator indiagator   14 Dec 12 11:22 text2
+total 24
+-rw-rw-r-- 1 indiagator indiagator  192 Dec 12 11:24 history_mkdir_1
+-rw-rw-r-- 1 indiagator indiagator  268 Dec 12 11:25 history_mkdir_2
+-rw-rw-r-- 1 indiagator indiagator  254 Dec 12 11:23 ls_output_1
+drwxrwxr-x 2 indiagator indiagator 4096 Dec 12 11:22 test_dir
+-rw-rw-r-- 1 indiagator indiagator   10 Dec 12 11:21 text1
+-rw-rw-r-- 1 indiagator indiagator   14 Dec 12 11:22 text2

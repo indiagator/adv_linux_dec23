@@ -1,0 +1,8 @@
+ 1559  mkdir /usr/share/grafana
+ 1608  mkdir -p /etc/apt/keyrings/
+ 1622  sudo mkdir /opt/loki
+ 2041  mkdir adv_linux_dec23
+ 2051  mkdir test_dir
+ 2060  history | grep mkdir > history_mkdir_1
+ 2062  gedit history_mkdir_1 
+ 2063  history | grep mkdir > history_mkdir_2

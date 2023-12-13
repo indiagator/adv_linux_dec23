@@ -1,0 +1,12 @@
+#!/bin/bash
+date
+whoami
+var7=45
+export var7
+ls | grep $2
+ps
+history | grep $1
+echo $var7
+var1=` echo " scale=2; 10/3" | bc`
+echo $var1
+exit 17
