@@ -1,0 +1,443 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 12:57:54.240  INFO 35591 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 35591 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 12:57:54.242  INFO 35591 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 12:57:54.690  INFO 35591 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 12:57:54.837  INFO 35591 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 12:57:54.842  INFO 35591 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 12:57:54.842  INFO 35591 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 12:57:54.874  INFO 35591 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 12:57:54.874  INFO 35591 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 605 ms
+2023-12-14 12:57:55.395  INFO 35591 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 12:57:55.416  INFO 35591 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 12:57:55.543  INFO 35591 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.568 seconds (JVM running for 1.779)
+2023-12-14 12:58:09.567  INFO 35591 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 12:58:09.568  INFO 35591 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 12:58:09.568  INFO 35591 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Error: Could not find or load main class jar
+Caused by: java.lang.ClassNotFoundException: jar
+Error: Could not find or load main class jar
+Caused by: java.lang.ClassNotFoundException: jar
+2023-12-14 13:00:38.595  INFO 35591 --- [nio-8071-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8445668020960868731/eureka-server-dev.yml]' via location 'file:/tmp/config-repo-8445668020960868731/'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:00:38.733  INFO 35955 --- [           main] c.e.e.EurekaserverApplication            : Starting EurekaserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 35955 (/home/indiagator/adv_linux_dec23/app2.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:00:38.735  INFO 35955 --- [           main] c.e.e.EurekaserverApplication            : The following 1 profile is active: "dev"
+2023-12-14 13:00:38.761  INFO 35955 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2023-12-14 13:00:38.761  INFO 35955 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=eureka-server, profiles=[dev], label=null, version=fd7d70d4c8da043bc24fa17c98fb0970c7748f8e, state=null
+2023-12-14 13:00:39.191  INFO 35955 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3883f7a-5f70-3c95-917b-e6d5f79489ca
+2023-12-14 13:00:39.318  INFO 35955 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-12-14 13:00:39.323  INFO 35955 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:00:39.323  INFO 35955 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:00:39.353  INFO 35955 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:00:39.353  INFO 35955 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 591 ms
+2023-12-14 13:00:39.568  INFO 35955 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-12-14 13:00:39.626  INFO 35955 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-14 13:00:39.627  INFO 35955 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-14 13:00:39.730  INFO 35955 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-14 13:00:39.731  INFO 35955 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-14 13:00:40.606  INFO 35955 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-12-14 13:00:40.626  WARN 35955 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-14 13:00:40.634  INFO 35955 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-14 13:00:40.648  INFO 35955 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-14 13:00:40.648  INFO 35955 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-14 13:00:40.652  INFO 35955 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702539040652 with initial instances count: 0
+2023-12-14 13:00:40.668  INFO 35955 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-14 13:00:40.669  WARN 35955 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-12-14 13:00:40.694  INFO 35955 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-14 13:00:40.695  INFO 35955 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-14 13:00:40.698  INFO 35955 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:00:40.714  INFO 35955 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-14 13:00:40.720  INFO 35955 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-14 13:00:40.721  INFO 35955 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-14 13:00:40.721  INFO 35955 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-14 13:00:40.721  INFO 35955 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-14 13:00:40.721  INFO 35955 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-14 13:00:40.723  INFO 35955 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-12-14 13:00:40.723  INFO 35955 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-14 13:00:40.726  INFO 35955 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-14 13:00:40.740  INFO 35955 --- [           main] c.e.e.EurekaserverApplication            : Started EurekaserverApplication in 6.971 seconds (JVM running for 7.19)
+2023-12-14 13:01:07.041  INFO 35955 --- [nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:01:07.041  INFO 35955 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:01:07.041  INFO 35955 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-12-14 13:01:40.722  INFO 35955 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-14 13:02:27.210  INFO 35955 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-14 13:02:27.216  INFO 35955 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-14 13:02:27.218  INFO 35955 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:02:27.222  INFO 35955 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:02:27.222  INFO 35955 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-14 13:02:27.223  INFO 35955 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:02:27.226  INFO 35955 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:02:27.229  INFO 35955 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-14 13:02:27.230  INFO 35955 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:07:16.930  INFO 36623 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 36623 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:07:16.932  INFO 36623 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 13:07:17.363  INFO 36623 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 13:07:17.498  INFO 36623 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 13:07:17.503  INFO 36623 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:07:17.504  INFO 36623 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:07:17.536  INFO 36623 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:07:17.536  INFO 36623 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 579 ms
+2023-12-14 13:07:18.078  INFO 36623 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:07:18.098  INFO 36623 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 13:07:18.234  INFO 36623 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.566 seconds (JVM running for 1.766)
+2023-12-14 13:07:30.794  INFO 36623 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:07:30.795  INFO 36623 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:07:30.795  INFO 36623 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:09:39.064  INFO 36943 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 36943 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:09:39.067  INFO 36943 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 13:09:39.498  INFO 36943 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 13:09:39.633  INFO 36943 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 13:09:39.638  INFO 36943 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:09:39.638  INFO 36943 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:09:39.672  INFO 36943 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:09:39.672  INFO 36943 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
+2023-12-14 13:09:40.395  INFO 36943 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:09:40.413  INFO 36943 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 13:09:40.569  INFO 36943 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.761 seconds (JVM running for 1.983)
+2023-12-14 13:09:42.282  INFO 36943 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:09:42.282  INFO 36943 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:09:42.283  INFO 36943 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-14 13:09:46.528  INFO 36943 --- [nio-8071-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-7857716334489840500/eureka-server-dev.yml]' via location 'file:/tmp/config-repo-7857716334489840500/'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:09:46.659  INFO 37001 --- [           main] c.e.e.EurekaserverApplication            : Starting EurekaserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37001 (/home/indiagator/adv_linux_dec23/app2.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:09:46.661  INFO 37001 --- [           main] c.e.e.EurekaserverApplication            : The following 1 profile is active: "dev"
+2023-12-14 13:09:46.685  INFO 37001 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2023-12-14 13:09:46.685  INFO 37001 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=eureka-server, profiles=[dev], label=null, version=fd7d70d4c8da043bc24fa17c98fb0970c7748f8e, state=null
+2023-12-14 13:09:47.105  INFO 37001 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3883f7a-5f70-3c95-917b-e6d5f79489ca
+2023-12-14 13:09:47.235  INFO 37001 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-12-14 13:09:47.240  INFO 37001 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:09:47.240  INFO 37001 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:09:47.272  INFO 37001 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:09:47.272  INFO 37001 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2023-12-14 13:09:47.475  INFO 37001 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-12-14 13:09:47.523  INFO 37001 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-14 13:09:47.523  INFO 37001 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-14 13:09:47.635  INFO 37001 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-14 13:09:47.635  INFO 37001 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-14 13:09:48.349  INFO 37001 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-12-14 13:09:48.375  WARN 37001 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-14 13:09:48.385  INFO 37001 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-14 13:09:48.401  INFO 37001 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-14 13:09:48.401  INFO 37001 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-14 13:09:48.406  INFO 37001 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702539588405 with initial instances count: 0
+2023-12-14 13:09:48.427  INFO 37001 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-14 13:09:48.428  WARN 37001 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-12-14 13:09:48.454  INFO 37001 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-14 13:09:48.455  INFO 37001 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-14 13:09:48.458  INFO 37001 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:09:48.473  INFO 37001 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-14 13:09:48.480  INFO 37001 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-14 13:09:48.481  INFO 37001 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-14 13:09:48.481  INFO 37001 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-14 13:09:48.481  INFO 37001 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-14 13:09:48.481  INFO 37001 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-14 13:09:48.483  INFO 37001 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-12-14 13:09:48.484  INFO 37001 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-14 13:09:48.486  INFO 37001 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-14 13:09:48.558  INFO 37001 --- [           main] c.e.e.EurekaserverApplication            : Started EurekaserverApplication in 6.73 seconds (JVM running for 6.969)
+2023-12-14 13:10:10.170  INFO 37001 --- [nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:10:10.170  INFO 37001 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:10:10.171  INFO 37001 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-14 13:10:48.481  INFO 37001 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-14 13:10:57.365  INFO 37001 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-14 13:10:57.371  INFO 37001 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-14 13:10:57.374  INFO 37001 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:10:57.379  INFO 37001 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:10:57.379  INFO 37001 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-14 13:10:57.380  INFO 37001 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:10:57.382  INFO 37001 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:10:57.386  INFO 37001 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-14 13:10:57.387  INFO 37001 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:11:45.020  INFO 37279 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37279 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:11:45.021  INFO 37279 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 13:11:45.448  INFO 37279 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 13:11:45.588  INFO 37279 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 13:11:45.594  INFO 37279 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:11:45.594  INFO 37279 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:11:45.628  INFO 37279 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:11:45.628  INFO 37279 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 583 ms
+2023-12-14 13:11:46.167  INFO 37279 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:11:46.186  INFO 37279 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 13:11:46.318  INFO 37279 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.606 seconds (JVM running for 1.804)
+2023-12-14 13:11:48.102  INFO 37279 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:11:48.102  INFO 37279 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:11:48.103  INFO 37279 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-14 13:11:52.276  INFO 37279 --- [nio-8071-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-4475339183450116822/eureka-server-dev.yml]' via location 'file:/tmp/config-repo-4475339183450116822/'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:11:52.402  INFO 37341 --- [           main] c.e.e.EurekaserverApplication            : Starting EurekaserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37341 (/home/indiagator/adv_linux_dec23/app2.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:11:52.403  INFO 37341 --- [           main] c.e.e.EurekaserverApplication            : The following 1 profile is active: "dev"
+2023-12-14 13:11:52.428  INFO 37341 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2023-12-14 13:11:52.429  INFO 37341 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=eureka-server, profiles=[dev], label=null, version=fd7d70d4c8da043bc24fa17c98fb0970c7748f8e, state=null
+2023-12-14 13:11:52.852  INFO 37341 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3883f7a-5f70-3c95-917b-e6d5f79489ca
+2023-12-14 13:11:53.010  INFO 37341 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-12-14 13:11:53.014  INFO 37341 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:11:53.014  INFO 37341 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:11:53.053  INFO 37341 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:11:53.053  INFO 37341 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 623 ms
+2023-12-14 13:11:53.263  INFO 37341 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-12-14 13:11:53.325  INFO 37341 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-14 13:11:53.326  INFO 37341 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-14 13:11:53.430  INFO 37341 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-14 13:11:53.430  INFO 37341 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-14 13:11:54.099  INFO 37341 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-12-14 13:11:54.138  WARN 37341 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-14 13:11:54.147  INFO 37341 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-14 13:11:54.159  INFO 37341 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-14 13:11:54.159  INFO 37341 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-14 13:11:54.163  INFO 37341 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702539714162 with initial instances count: 0
+2023-12-14 13:11:54.180  INFO 37341 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-14 13:11:54.181  WARN 37341 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-12-14 13:11:54.212  INFO 37341 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-14 13:11:54.213  INFO 37341 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-14 13:11:54.218  INFO 37341 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:11:54.239  INFO 37341 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-14 13:11:54.252  INFO 37341 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-14 13:11:54.252  INFO 37341 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-14 13:11:54.252  INFO 37341 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-14 13:11:54.252  INFO 37341 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-14 13:11:54.252  INFO 37341 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-14 13:11:54.255  INFO 37341 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-12-14 13:11:54.255  INFO 37341 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-14 13:11:54.258  INFO 37341 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-14 13:11:54.308  INFO 37341 --- [           main] c.e.e.EurekaserverApplication            : Started EurekaserverApplication in 6.586 seconds (JVM running for 6.794)
+2023-12-14 13:12:54.253  INFO 37341 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-14 13:13:52.931  INFO 37341 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-14 13:13:52.940  INFO 37341 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-14 13:13:52.942  INFO 37341 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:13:52.948  INFO 37341 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:13:52.949  INFO 37341 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-14 13:13:52.949  INFO 37341 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:13:52.951  INFO 37341 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:13:52.956  INFO 37341 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-14 13:13:52.956  INFO 37341 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:14:20.266  INFO 37543 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37543 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:14:20.267  INFO 37543 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 13:14:20.690  INFO 37543 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 13:14:20.838  INFO 37543 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 13:14:20.843  INFO 37543 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:14:20.843  INFO 37543 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:14:20.876  INFO 37543 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:14:20.877  INFO 37543 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2023-12-14 13:14:21.404  INFO 37543 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:14:21.423  INFO 37543 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 13:14:21.558  INFO 37543 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.766 seconds (JVM running for 1.977)
+2023-12-14 13:14:42.297  INFO 37543 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:14:42.297  INFO 37543 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:14:42.298  INFO 37543 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-14 13:14:46.587  INFO 37543 --- [nio-8071-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-10451646789517482425/eureka-server-dev.yml]' via location 'file:/tmp/config-repo-10451646789517482425/'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:14:46.722  INFO 37610 --- [           main] c.e.e.EurekaserverApplication            : Starting EurekaserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37610 (/home/indiagator/adv_linux_dec23/app2.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:14:46.725  INFO 37610 --- [           main] c.e.e.EurekaserverApplication            : The following 1 profile is active: "dev"
+2023-12-14 13:14:46.758  INFO 37610 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2023-12-14 13:14:46.758  INFO 37610 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=eureka-server, profiles=[dev], label=null, version=fd7d70d4c8da043bc24fa17c98fb0970c7748f8e, state=null
+2023-12-14 13:14:47.205  INFO 37610 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3883f7a-5f70-3c95-917b-e6d5f79489ca
+2023-12-14 13:14:47.339  INFO 37610 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-12-14 13:14:47.344  INFO 37610 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:14:47.344  INFO 37610 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:14:47.373  INFO 37610 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:14:47.373  INFO 37610 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2023-12-14 13:14:47.583  INFO 37610 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-12-14 13:14:47.641  INFO 37610 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-14 13:14:47.642  INFO 37610 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-14 13:14:47.738  INFO 37610 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-14 13:14:47.738  INFO 37610 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-14 13:14:48.380  INFO 37610 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-12-14 13:14:48.402  WARN 37610 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-14 13:14:48.409  INFO 37610 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-14 13:14:48.421  INFO 37610 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-14 13:14:48.421  INFO 37610 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-14 13:14:48.425  INFO 37610 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702539888425 with initial instances count: 0
+2023-12-14 13:14:48.440  INFO 37610 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-14 13:14:48.441  WARN 37610 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-12-14 13:14:48.464  INFO 37610 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-14 13:14:48.465  INFO 37610 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-14 13:14:48.468  INFO 37610 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:14:48.481  INFO 37610 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-14 13:14:48.488  INFO 37610 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-14 13:14:48.489  INFO 37610 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-14 13:14:48.489  INFO 37610 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-14 13:14:48.489  INFO 37610 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-14 13:14:48.489  INFO 37610 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-14 13:14:48.492  INFO 37610 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-12-14 13:14:48.492  INFO 37610 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-14 13:14:48.494  INFO 37610 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-14 13:14:48.592  INFO 37610 --- [           main] c.e.e.EurekaserverApplication            : Started EurekaserverApplication in 6.712 seconds (JVM running for 6.923)
+2023-12-14 13:15:01.075  INFO 37610 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-14 13:15:01.082  INFO 37610 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-14 13:15:01.085  INFO 37610 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:15:01.090  INFO 37610 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:15:01.090  INFO 37610 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-14 13:15:01.090  INFO 37610 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:15:01.093  INFO 37610 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:15:01.097  INFO 37610 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-14 13:15:01.097  INFO 37610 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:16:44.227  INFO 37786 --- [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37786 (/home/indiagator/adv_linux_dec23/app.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:16:44.229  INFO 37786 --- [           main] c.e.c.ConfigserverApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14 13:16:44.685  INFO 37786 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b32064c6-0cb8-32c0-8ad3-afb11a0f04c0
+2023-12-14 13:16:44.830  INFO 37786 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-12-14 13:16:44.835  INFO 37786 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:16:44.835  INFO 37786 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:16:44.870  INFO 37786 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:16:44.870  INFO 37786 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 617 ms
+2023-12-14 13:16:45.395  INFO 37786 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:16:45.416  INFO 37786 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-12-14 13:16:45.534  INFO 37786 --- [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 1.669 seconds (JVM running for 1.865)
+2023-12-14 13:17:05.236  INFO 37786 --- [nio-8071-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 13:17:05.236  INFO 37786 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-14 13:17:05.236  INFO 37786 --- [nio-8071-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-12-14 13:17:09.528  INFO 37786 --- [nio-8071-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-15566502889562488914/eureka-server-dev.yml]' via location 'file:/tmp/config-repo-15566502889562488914/'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.13)
+
+2023-12-14 13:17:09.668  INFO 37853 --- [           main] c.e.e.EurekaserverApplication            : Starting EurekaserverApplication vdev-1 using Java 11.0.21 on desktophome with PID 37853 (/home/indiagator/adv_linux_dec23/app2.jar started by indiagator in /home/indiagator/adv_linux_dec23)
+2023-12-14 13:17:09.671  INFO 37853 --- [           main] c.e.e.EurekaserverApplication            : The following 1 profile is active: "dev"
+2023-12-14 13:17:09.699  INFO 37853 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2023-12-14 13:17:09.699  INFO 37853 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=eureka-server, profiles=[dev], label=null, version=fd7d70d4c8da043bc24fa17c98fb0970c7748f8e, state=null
+2023-12-14 13:17:10.126  INFO 37853 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c3883f7a-5f70-3c95-917b-e6d5f79489ca
+2023-12-14 13:17:10.269  INFO 37853 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-12-14 13:17:10.273  INFO 37853 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-14 13:17:10.273  INFO 37853 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-12-14 13:17:10.307  INFO 37853 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-14 13:17:10.307  INFO 37853 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2023-12-14 13:17:10.517  INFO 37853 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2023-12-14 13:17:10.582  INFO 37853 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-12-14 13:17:10.583  INFO 37853 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-12-14 13:17:10.681  INFO 37853 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-12-14 13:17:10.681  INFO 37853 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-12-14 13:17:11.333  INFO 37853 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2023-12-14 13:17:11.354  WARN 37853 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-14 13:17:11.365  INFO 37853 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-14 13:17:11.379  INFO 37853 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-14 13:17:11.379  INFO 37853 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-12-14 13:17:11.383  INFO 37853 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702540031383 with initial instances count: 0
+2023-12-14 13:17:11.400  INFO 37853 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-12-14 13:17:11.402  WARN 37853 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-12-14 13:17:11.426  INFO 37853 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-12-14 13:17:11.427  INFO 37853 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-12-14 13:17:11.430  INFO 37853 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-12-14 13:17:11.446  INFO 37853 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-12-14 13:17:11.453  INFO 37853 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-12-14 13:17:11.453  INFO 37853 --- [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-12-14 13:17:11.453  INFO 37853 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-12-14 13:17:11.453  INFO 37853 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-12-14 13:17:11.454  INFO 37853 --- [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-12-14 13:17:11.455  INFO 37853 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-12-14 13:17:11.456  INFO 37853 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-12-14 13:17:11.458  INFO 37853 --- [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-12-14 13:17:11.543  INFO 37853 --- [           main] c.e.e.EurekaserverApplication            : Started EurekaserverApplication in 6.732 seconds (JVM running for 6.938)
+this is the 1 th inner iteration of the 1 th outer iteration
+this is the 2 th inner iteration of the 1 th outer iteration
+this is the 3 th inner iteration of the 1 th outer iteration
+this is the 4 th inner iteration of the 1 th outer iteration
+this is the 1 th inner iteration of the 2 th outer iteration
+this is the 2 th inner iteration of the 2 th outer iteration
+this is the 3 th inner iteration of the 2 th outer iteration
+this is the 4 th inner iteration of the 2 th outer iteration
+this is the 1 th inner iteration of the 3 th outer iteration
+this is the 2 th inner iteration of the 3 th outer iteration
+this is the 3 th inner iteration of the 3 th outer iteration
+this is the 4 th inner iteration of the 3 th outer iteration
+this is the 1 th inner iteration of the 4 th outer iteration
+this is the 2 th inner iteration of the 4 th outer iteration
+this is the 3 th inner iteration of the 4 th outer iteration
+this is the 4 th inner iteration of the 4 th outer iteration
+2023-12-14 13:18:11.454  INFO 37853 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-12-14 13:19:09.408  INFO 37853 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-12-14 13:19:09.415  INFO 37853 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-12-14 13:19:09.418  INFO 37853 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:19:09.422  INFO 37853 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:19:09.422  INFO 37853 --- [ionShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-12-14 13:19:09.422  INFO 37853 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-12-14 13:19:09.424  INFO 37853 --- [ionShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-12-14 13:19:09.428  INFO 37853 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-14 13:19:09.428  INFO 37853 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+i=0
+while [ $i -le 10  ]
+do 
+	
+	if [ $i -eq 7  ]
+	then
+		i=$((i + 1))
+		continue
+	fi
+	echo current value of i is $i
+	i=$((i + 1 ))
+done
+	

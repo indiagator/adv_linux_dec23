@@ -1,0 +1,8 @@
+#!/bin/bash
+
+var1="jan feb mar apr may jun jul aug sep oct nov dec"
+
+for month in $var1
+do
+ echo $month is a month of the year
+done
